@@ -10,12 +10,15 @@ public class AnimationController : MonoBehaviour
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
-        anim.Play("Buka");
     }
 
     // Update is called once per frame
     void Update()
     {
-        // anim.PlayInFixedTime("Base Layer.Buka", 0, 0);
+        
+    }
+
+    public void Net1Buka(){
+        anim.Play("CubeNet1_buka");
     }
 }
